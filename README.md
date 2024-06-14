@@ -4,9 +4,8 @@ This program contains a smart contract which creates a token on a local HardHat 
 
 ## Description
 
-This program contains a simple contract named as Myether, which contains a mint function to send ethers to the provided address,  burn function to deduct that amount from the wallet and transfer function to send amount to the provided address.
+This program contains a simple contract named as MyToken, which contains a mint function to send ethers to the provided address,  burn function to deduct that amount from the wallet and transfer function to send amount to the provided address.
 
-These transactions are performed after connecting Remix IDE from MetaMask wallet using different account addresses imported from Ganache.
 
 ## Getting Started
 
@@ -77,7 +76,7 @@ This declares a private state variable owner of type address. It will be used to
   
 ```
 
-This is the constructor function that is called when the contract is deployed. It sets the initial state of the contract. In this case, it sets the name of the token to "Khushi" and the symbol to "kk". It also initializes the owner variable with the address of the contract deployer (msg.sender).
+This is the constructor function that is called when the contract is deployed. It sets the initial state of the contract. In this case, it sets the name of the token to "Hytoken" and the symbol to "DSR". It also initializes the owner variable with the address of the contract deployer (msg.sender).
 
 ```solidity
 
